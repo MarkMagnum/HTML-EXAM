@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.w-1440 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    width: 1440px;
+
+
+}
+
+header {
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    width: 100%;
+    position: fixed;
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 95px;
+    height: 86px;
+}
+
+.top div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.top > div > h3 {
+    color: #001858;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.top > div > a {
+    color: #6246EA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.top > nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.top > nav > ul {
+    display: flex;
+    gap: 30px;
+}
+
+.top > nav > ul a {
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.top > nav .buymeacoffee {
+    display: flex;
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*-----------Dasteen--------*/
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 250px 95px 263px 95px;
+}
+
+.dasteen {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.dasteen > h1 {
+    width: 617px;
+    color: #2B2C34;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.dasteen > p {
+    width: 652px;
+    color: #9A9494;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dasteen > .email {
+    width: 543px;
+    height: 67px;
+}
+
+main > .dasteen > .email input {
+    height: 100%;
+    width: 70%;
+    border-radius: 8px;
+    background: #FFFFFE;
+    border: none;
+    font-size: 20px;
+
+}
+.dasteen input::placeholder {
+    color: #C0C0C0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main > .dasteen > .email button {
+    border-radius: 8px;
+    width: 145px;
+    height: 100%;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    border: none;
+}
+
+/*---------Language--------*/
+.category__section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 86px;
+    margin: 0 95px 50px 95px;
+}
+
+.category > p {
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.category > a {
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 37px;
+    background: #FFFFFE;
+
+}
+
+.icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+    gap: 30px;
+    width: 220px;
+    height: 280px;
+}
+
+.icon .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.icon:hover {
+    border-radius: 8px;
+    background: #6246EA;
+}
+
+.icon p {
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+/*---------Featured Article--------*/
+.featured_article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 148px;
+}
+
+.featured {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 86px;
+    margin: 0 95px 30px 95px;
+
+}
+
+.featured > p {
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.featured > a {
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card {
+    background: #fff;
+    width: 300px;
+    height: 420px;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    padding-top: 20px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* ---------- AUTHOR ---------- */
+.author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: auto;
+
+}
+
+.author img {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+}
+
+.author h3 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.author p {
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
