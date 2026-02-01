@@ -14,139 +14,425 @@
     <header>
         <div class="top">
             <div>
-                <h3>Dasteen</h3>
-                <a href="#">.Blog</a>
+                <h3>Dasteen<span>.Blog</span></h3>
             </div>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Category</a></li>
                     <li><a href="#">About Me</a></li>
-                    <li><img src="icon/Icon.png" height="17" width="17" alt="zoom"/>
-                        <a href="#">Search</a></li>
+                    <li>
+                        <a href="#"><img src="icon/Icon.png" height="17" width="17" alt="zoom"/>Search</a></li>
                 </ul>
 
-                <a href="#" class="buymeacoffee"><img src="icon/buymeacoffee.png" height="24" width="24" alt="coffe"/> Buy Me A Coffe</a>
+                <button class="buymeacoffee"><img src="icon/buymeacoffee.png" height="24" width="24" alt="coffe"/> Buy Me A Coffe</button>
             </nav>
         </div>
     </header>
-    <main class="banner">
-        <div class="dasteen">
-            <h1>
-                Hi, i’m Dasteen
-                Front end dev
-            </h1>
-            <p>On this blog I share tips and tricks, frameworks, projects, tutorials, etc
-                Make sure you subscribe to get the latest updates</p>
-            <div class="email">
-                <label for="email">
-                    <input type="text" id="email" placeholder="Enter your email here..." required>
-                </label>
-                <button>
-                    Subscribe
-                </button>
+
+    <main>
+        <section class="banner">
+            <div class="dasteen">
+                <h1>
+                    Hi, i’m Dasteen
+                    Front end dev
+                </h1>
+                <p>On this blog I share tips and tricks, frameworks, projects, tutorials, etc
+                    Make sure you subscribe to get the latest updates</p>
+                <div class="email">
+
+                    <form action="/subscribe">
+                        <label for="email-banner"> </label><input type="email" name="email" id="email-banner" placeholder="Enter your email here..." required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+
+                </div>
             </div>
+            <img src="img/learn-coding%201.png" alt="dasteen">
+        </section>
+        <section class="category__section">
+            <div class="container-1250">
+                <div class="category">
+                    <h3>Browse the category</h3>
+                    <a href="#"> See All Category &#62;</a>
+                </div>
+                <div class="icons">
+
+                    <a href="#" class="icon">
+                        <div class="box"><img src="icon/CSS.png" alt="Css" height="37" width="33"/></div>
+                        <h3>CSS</h3>
+                    </a>
+
+                    <a href="#" class="icon">
+                        <div class="box"><img src="icon/JS.png" alt="Js" height="60" width="60"/></div>
+                        <h3 style="">javascript</h3>
+                    </a>
+
+
+                    <a href="#" class="icon ">
+                        <div class="box"><img src="icon/tailwindcss.png" alt="tailwindcss" height="24" width="40"/></div>
+                        <h3>Tailwind</h3>
+                    </a>
+
+
+                    <a href="#" class="icon">
+
+                        <div class="box"><img src="icon/vue_JS.png" alt="vue_JS" height="31" width="36"/></div>
+                        <h3>Vue JS</h3>
+                    </a>
+
+                    <a href="#" class="icon">
+                        <div class="box"><img src="icon/react.png" alt="react" height="36" width="40"/></div>
+                        <h3>React JS</h3>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+
+        <div class="container-1250">
+            <section class="catalog_section">
+                <div class="catalog">
+                    <h3>Featured Article</h3>
+                    <a href="#"> See All Article &#62;</a>
+                </div>
+                <div class="cards">
+
+                    <a href="#" class="card">
+                        <img src="img/book.png" alt="book" class="main-img"/>
+                        <p class="card-title">Fundamental Of Javascript</p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 ∙ 3 min read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+                        <img src="img/computer.png" alt="computer" class="main-img"/>
+                        <p class="card-title">Grid CSS Make Your Life Easier</p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author"/>
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+                        <img src="img/button.png" alt="button" class="main-img"/>
+                        <p class="card-title">
+                            Make Animated Light Mode And Dark Mode Toggle With CSS
+                        </p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+                        <img src="img/game.png" alt="game" class="main-img"/>
+                        <p class="card-title">Make Tic Tac Toe Games With React JS</p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+
+            </section>
+            <section class="catalog_section">
+                <div class="catalog">
+                    <h3>CSS</h3>
+                    <a href="#"> See All Article &#62;</a>
+                </div>
+                <div class="cards">
+
+                    <a href="#" class="card">
+
+
+                        <img src="img/notebook.png" alt="notebook" height="198" width="260"/>
+                        <p class="card-title">Flexbox cSS : Everything you need to know</p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+                        <img src="img/computer.png" alt="computer" class="main-img"/>
+                        <p class="card-title">Grid CSS make your life easier</p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author"/>
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+                        <img src="img/laptop.png" alt="laptop" height="198" width="260"/>
+                        <p class="card-title">
+                            3 easy way to make div center
+                        </p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+                        <img src="img/button.png" alt="button" class="main-img"/>
+                        <p class="card-title">Make animated light mode and dark mode toggle with CSS</p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+            <section class="catalog_section">
+                <div class="catalog">
+                    <h3>Javascript</h3>
+                    <a href="#"> See All Article &#62;</a>
+                </div>
+                <div class="cards">
+
+                    <a href="#" class="card">
+
+
+                        <img src="img/screen.png" alt="screen" height="198" width="260"/>
+                        <p class="card-title">array in javasript - Learn JS #3</p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+                        <img src="img/book.png" alt="book" class="main-img"/>
+                        <p class="card-title">Fundamental of javascript</p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+
+
+                        <img src="img/work-place.png" alt="work-place" height="198" width="260"/>
+                        <p class="card-title">
+                            7 project with javascript you must try for your portfolio </p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+
+
+                        <img src="img/calculator.png" alt="calculator" height="198" width="260"/>
+                        <p class="card-title">
+                            make simple calculator with javascript </p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+
+                </div>
+
+            </section>
+            <section class="catalog_section">
+                <div class="catalog">
+                    <h3>React JS</h3>
+                    <a href="#"> See All Article &#62;</a>
+                </div>
+                <div class="cards">
+
+                    <a href="#" class="card">
+                        <img src="img/coding.png" alt="coding" height="198" width="260"/>
+                        <p class="card-title">first month of leaning react jS</p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+                        <img src="img/markdown_Editor.png" alt="markdown_Editor" height="198" width="260"/>
+
+                        <p class="card-title">build markdown editor with react JS</p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author"/>
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+
+                        <img src="img/react_Js.png" alt="react_Js" height="198" width="260"/>
+                        <p class="card-title">
+                            getting started with react JS </p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+
+                        <img src="img/game.png" alt="game" class="main-img"/>
+                        <p class="card-title">Make Tic Tac Toe Games With React JS</p>
+
+                        <div class="author">
+                            <img src="img/Ellipse80.png" alt="author">
+                            <div>
+                                <h3>Dasteen</h3>
+                                <p>Jan 10, 2022 · 3 Min Read</p>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="button">
+                    <button class="More_Article">More Article</button>
+                </div>
+            </section>
         </div>
-        <img src="img/learn-coding%201.png" alt="dasteen">
+        <section class="subscribe-section">
+            <div class="subscribe-box">
+                <img src="icon/post.png"
+                     alt="post" height="107" width="81"/>
+                <div><h3>Subscribe For The Lastest Updates</h3>
+                    <p>Subscribe to newsletter and never miss the new post every week.</p></div>
+
+                <div class="subscribe-form">
+                    <form action="/subscribe">
+                        <label for="email-footer"></label>
+                        <input type="email" name="email" id="email-footer" placeholder="Enter your email here..." required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
-    <section class="category__section">
-        <div class="category">
-            <h3>Browse the category</h3>
-            <a href="#"> See All Category &#62;</a>
-        </div>
-        <div class="icons">
 
-            <div class="icon">
-                <div class="box"><img src="icon/CSS.png" alt="Css" height="37" width="33"/></div>
-                <h3>CSS</h3>
-            </div>
+    <footer>
+        <div class="footer">
+            <div class="info-container">
+                <div class="info-brand">
+                    <h3>Dasteen<span>.blog</span></h3>
+                    <p>Digitaldastin by Dastin Darmawan</p>
 
-            <div class="icon">
-                <div class="box"><img src="icon/JS.png" alt="Js" height="60" width="60"/></div>
-                <h3 style="">javascript</h3>
-            </div>
+                    <div class="socials">
+                        <a href="#"> <img src="icon/Medium Monogram.png" alt="Medium Monogram" height="30" width="30"/></a>
+                        <a href="#"> <img src="icon/Vector.png" alt="Vector" height="20" width="24"/></a>
+                        <a href="#"> <img src="icon/instagram.png" alt="instagram" height="24" width="24"/></a>
+                        <a href="#"> <img src="icon/linkedin.png" alt="linkedin" height="24" width="24"/></a>
+                    </div>
+                </div>
+                <div class="info-grid">
+                    <div class="info-col">
+                        <h4>Category</h4>
+                        <a href="#">CSS</a>
+                        <a href="#">Javascript</a>
+                        <a href="#">Tailwind</a>
+                        <a href="#">React JS</a>
+                        <a href="#">More Category</a>
+                    </div>
 
+                    <div class="info-col">
+                        <h4>About Me</h4>
+                        <a href="#">About Me</a>
+                        <a href="#">Projects</a>
+                        <a href="#">Achievement</a>
+                    </div>
 
-            <div class="icon ">
-                <div class="box"><img src="icon/tailwindcss.png" alt="tailwindcss" height="24" width="40"/></div>
-                <h3>Tailwind</h3>
-            </div>
+                    <div class="info-col">
+                        <h4>Get In Touch</h4>
+                        <p>+62-8XXX-XXX-XX</p>
+                        <p>demo@gmail.com</p>
+                    </div>
 
-
-            <div class="icon">
-
-                <div class="box"><img src="icon/vue_JS.png" alt="vue_JS" height="31" width="36"/></div>
-                <h3>Vue JS</h3>
-            </div>
-
-            <div class="icon">
-                <div class="box"><img src="icon/react.png" alt="react" height="36" width="40"/></div>
-                <h3>React JS</h3>
-            </div>
-
-        </div>
-    </section>
-    <section class="featured_article">
-        <div class="featured">
-            <h3>Featured Article</h3>
-            <a href="#"> See All Article &#62;</a>
-        </div>
-        <div class="cards">
-
-            <div class="card">
-                <img src="img/book.png" alt="book" class="main-img"/>
-                <p class="card-title">Fundamental Of Javascript</p>
-
-                <div class="author">
-                    <img src="img/Ellipse80.png" alt="author">
-                    <div>
-                        <h3>Dasteen</h3>
-                        <p>Jan 10, 2022 · 3 Min Read</p>
+                    <div class="info-col">
+                        <h4>Follow Us</h4>
+                        <a href="#">Medium</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Facebook</a>
                     </div>
                 </div>
             </div>
-
-            <div class="card">
-                <img src="img/computer.png" alt="computer" class="main-img"/>
-                <p class="card-title">Grid CSS Make Your Life Easier</p>
-
-                <div class="author">
-                    <img src="img/Ellipse80.png" alt="author"/>
-                    <div>
-                        <h3>Dasteen</h3>
-                        <p>Jan 10, 2022 · 3 Min Read</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="img/button.png" alt="button" class="main-img"/>
-                <p class="card-title">
-                    Make Animated Light Mode And Dark Mode Toggle With CSS
-                </p>
-
-                <div class="author">
-                    <img src="img/Ellipse80.png" alt="author">                      <div>
-                    <h3>Dasteen</h3>
-                    <p>Jan 10, 2022 · 3 Min Read</p>
-                </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="img/game.png" alt="game"/>
-                <p class="card-title">Make Tic Tac Toe Games With React JS</p>
-
-                <div class="author">
-                    <img src="img/Ellipse80.png" alt="author">                      <div>
-                    <h3>Dasteen</h3>
-                    <p>Jan 10, 2022 · 3 Min Read</p>
-                </div>
-                </div>
-            </div>
-
         </div>
-    </section>
+        <div class="footer-bottom">
+            <span>© 2025 Digitaldastin</span>
+        </div>
+
+
+    </footer>
+
 </div>
 
 </body>
