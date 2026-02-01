@@ -15,12 +15,6 @@
 
 }
 
-.container-1250 {
-    max-width: 1250px;
-    margin: 0 auto;
-
-}
-
 
 .w-1440 header {
     display: flex;
@@ -98,6 +92,8 @@
 /*-----------Dasteen--------*/
 main {
     padding-top: 86px;
+    background: #EFF0F3;
+
 
 }
 
@@ -108,6 +104,7 @@ main {
     padding: 164px 0 263px;
     width: 1250px;
     margin-inline: auto;
+
 
 }
 
@@ -147,7 +144,7 @@ main {
 }
 
 .dasteen > .email input {
-    height: 100%;
+    height: 67px;
     width: 70%;
     border-radius: 8px;
     background: #FFFFFE;
@@ -167,7 +164,7 @@ main {
 .dasteen > .email button {
     border-radius: 8px;
     width: 145px;
-    height: 100%;
+    height: 67px;
     background: #6246EA;
     color: #FFFFFE;
     font-size: 20px;
@@ -185,6 +182,12 @@ main {
     align-items: center;
     flex-direction: column;
     width: 100%;
+}
+
+.container-1250 {
+    max-width: 1250px;
+    margin: 0 auto;
+
 }
 
 .category__section .category {
@@ -218,11 +221,13 @@ main {
     align-items: center;
     justify-content: center;
     gap: 37px;
-    background: #FFFFFE;
-    color: inherit;
-    text-decoration: none;
+    margin-bottom: 60px;
+
+
 }
+
 .icons a {
+    background: #ffffff;
     text-decoration: none;
     color: inherit;
 }
@@ -237,6 +242,9 @@ main {
     gap: 30px;
     width: 220px;
     height: 280px;
+    border-radius: 8px;
+
+
 }
 
 .icon .box {
@@ -306,6 +314,7 @@ main {
     gap: 16px;
     width: 100%;
 }
+
 .cards a {
     text-decoration: none;
     color: inherit;
@@ -396,6 +405,8 @@ main {
     display: grid;
     place-items: center;
     padding: 58px 0;
+    background: #EFF0F3;
+
 }
 
 .subscribe-section h3 {
@@ -418,9 +429,9 @@ main {
 
 
 .subscribe-box {
+
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     max-width: 700px;
     text-align: center;
@@ -429,18 +440,19 @@ main {
 
 .subscribe-form {
     display: flex;
-    width: 609px;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
-.subscribe-form input {
-    width: 444px;
+form > input {
     height: 67px;
+    width: 440px;
+    border-radius: 8px;
+    background: #FFFFFE;
     border: none;
     font-size: 20px;
     padding-left: 10px;
-    font-weight: 400;
-    line-height: normal;
 
 }
 
@@ -451,19 +463,20 @@ main {
     line-height: normal;
 }
 
-.subscribe-form a {
-    width: 145px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.subscribe-form > form button {
     border-radius: 8px;
+    width: 140px;
+    height: 67px;
     background: #6246EA;
     color: #FFFFFE;
     font-size: 20px;
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    border: none;
+    margin-left: 30px;
 }
+
 
 /*-------------------footer------------*/
 
@@ -473,7 +486,6 @@ footer {
     align-items: center;
     flex-direction: column;
     background: #E4E5E9;
-
 }
 
 .footer {
